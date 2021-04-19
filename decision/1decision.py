@@ -72,17 +72,17 @@ average2 = Average(sum_grades2)
 print(f'\n{name0} %.1f' % average0, f'\n{name1} %.1f' %
       average1, f'\n{name2} %.1f' % average2)
 if average0 > average1 and average0 > average2:
-    print(f'\n\n{name0} have the better grades')
+    print(f'\n\n{name0} has the better grades')
 elif average1 > average1 and average1 > average2:
-    print(f'\n\n{name1} have the better grades')
+    print(f'\n\n{name1} has the better grades')
 elif average2 > average0 and average2 > average1:
-    print(f'\n\n{name2} have the better grades')
+    print(f'\n\n{name2} has the better grades')
 elif average0 == average1:
-    print(f'\n{name0} have the same average grades as {name1}')
+    print(f'\n{name0} has the same average grades as {name1}')
 elif average1 == average2:
-    print(f'\n{name2} have the same average grades as {name1}')
+    print(f'\n{name2} has the same average grades as {name1}')
 elif average0 == average2:
-    print(f'\n{name0} have the same average grades as {name2}')
+    print(f'\n{name0} has the same average grades as {name2}')
 else:
     print('wtf')
 
