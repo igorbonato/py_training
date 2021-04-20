@@ -1,6 +1,6 @@
 import random
 n = random.randint(1, 100)
-attempts = 1
+attempts = 0
 totalGuesses = 10
 
 print("LITTLE FUCKING GUESSING GAME\n")
@@ -9,8 +9,8 @@ print(
     f'number generated!\nyoull have {totalGuesses} chances...\n********************************************\n')
 
 while attempts < totalGuesses:
-    guess = int(input(f'Attempt number {attempts}: '))
     attempts = attempts + 1
+    guess = int(input(f'Attempt number {attempts}: '))
     if guess == n:
         print("\nGUESSED!!!\nyou're great!\n")
         print(f'tries until guess: {attempts}')
@@ -19,6 +19,5 @@ while attempts < totalGuesses:
         print("You missed! Shoot lower!\n")
     elif guess < n:
         print("You missed! Shoot higher!\n")
-    else:
-        print(f'You tried {attempts} times and lost! You suck!')
-        break
+else:
+    print(f'You tried {attempts} times and lost! You suck!')
