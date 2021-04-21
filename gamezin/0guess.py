@@ -4,9 +4,9 @@ attempts = 0
 totalGuesses = 10
 
 print("LITTLE FUCKING GUESSING GAME\n")
-print("***********\ngenerating random number between 0 to 100...")
+print("************\ngenerating random number between 0 to 100...")
 print(
-    f'number generated!\nyoull have {totalGuesses} chances...\n********\n')
+    f'number generated!\nyoull have {totalGuesses} chances...\n************\n')
 
 while attempts < totalGuesses:
     attempts = attempts + 1
