@@ -1,10 +1,10 @@
 text = 'Igor is learning python. Igor is improving his skills on python.'
 
-# 1.count elements
-counter = text.count('i'), text.count('o')
-print(counter)
+# 1.count elements #
+# counter = text.count('i'), text.count('o')
+# print(counter)
 
-# 2.count elements
+# 2.count elements #
 words = text.split(' ')
 counter = 0
 
