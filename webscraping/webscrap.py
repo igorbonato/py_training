@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 
 #headers for be a nav#
 
@@ -11,7 +10,7 @@ players = ['messi', 'cristiano', 'neymar']
 
 for player in players:
     i = requests.get(
-        "https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query="+player[0]+"&x=0&y=0")
+        "https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query="+player[0])
 player_page = BeautifulSoup(i.content)
 player_num = player_page.select(
     "td.hauptlink > a.spielprofil_tooltip tooltipstered > href")
