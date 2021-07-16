@@ -15,7 +15,7 @@ print(trespalavras)
 '''
 Uma última função interessante de strings é o .format()
 Para entender como ela funciona, podemos pensar em um contrato.
-É normal que ele venha com campos em branco para serem preenchidos posteriormente. 
+É normal que ele venha com campos em branco para serem preenchidos posteriormente
 Ex:
 
 Eu, ______________, portador do RG ________________ e nascido ao dia //, autorizo o uso de minha imagem.
