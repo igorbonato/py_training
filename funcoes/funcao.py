@@ -53,7 +53,7 @@ dadosPessoais("José", 30, "Maceió")
 
 '''
 Os parâmetros podem ser passados fora de ordem
-Porém, para isso precisamos explicitar qual parâmetro estamos passando, 
+Porém, para isso precisamos explicitar qual parâmetro estamos passando,
 para evitar ambiguidade ou erros de interpretação do Python.'''
 
 dadosPessoais(idade=56, cidade="Florianópolis", nome="Ana")
